@@ -1,0 +1,675 @@
+Script started on 2026-07-12 21:51:14+07:00 [TERM="screen" TTY="/dev/pts/27" COLUMNS="141" LINES="54"]
+[?2004heltex-v2@eltex-2026-summer:~$ git config --gli[Kobal uset.[K[Kr.name ""e"l"t"e"x"v"2"2"0"2"6"[C
+[?2004lbash: git: command not found
+[?2004heltex-v2@eltex-2026-summer:~$ sshgit config --global user.name "eltexv22026"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscreen -ls[Kr 28038.practice2_part2 ls[KS practice2_part2ls -la[K[Kscreen -lsr 10250.practice2_part1 ls[K[6Pexitscreen -lsr 10250.practice2_part1 ls[K[6Pexitls -la practice2_eltex-v2_part*[Kscript -a practice2_${MYUSER}_part2.log[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho $MYUSER[Kxport MYUSER=$(whoami)[1@t[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pscreen -ls[K[K[K[K[K[K[K[K[K[Kgit
+[?2004lbash: git: command not found
+[?2004heltex-v2@eltex-2026-summer:~$ ssh root@172.16.9.176
+[?2004lWelcome to Ubuntu 24.04.2 LTS (GNU/Linux 6.8.0-134-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Sun Jul 12 02:54:43 PM UTC 2026
+
+  System load:  0.0                Processes:              113
+  Usage of /:   41.6% of 14.66GB   Users logged in:        0
+  Memory usage: 6%                 IPv4 address for ens18: 172.16.9.176
+  Swap usage:   0%
+
+
+Expanded Security Maintenance for Applications is not enabled.
+
+79 updates can be applied immediately.
+1 of these updates is a standard security update.
+To see these additional updates run: apt list --upgradable
+
+1 additional security update can be applied with ESM Apps.
+Learn more about enabling ESM Apps service at https://ubuntu.com/esm
+
+
+Avksentyuk Nikita
+Sun Jul 12 12:16:11 PM UTC 2026
+Last login: Sun Jul 12 12:49:25 2026 from 172.16.8.4
+[?2004hroot@eltex-practice2-v2:~# git
+[?2004lusage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--config-env=<name>=<envvar>] <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+[?2004hroot@eltex-practice2-v2:~# git config --globfl[K[Kal user.nemt[K[K[Kame ""e"l"t"e"x"v"2"2"0"0"6"[1P"[1P"[1P"0"2"6"[C
+[?2004l[?2004hroot@eltex-practice2-v2:~# git config --global user.name "eltexv22026"[C[C[C[C[1P "eltexv22026"[1P "eltexv22026"[1P "eltexv22026"[1P "eltexv22026"m "eltexv22026"a "eltexv22026"i "eltexv22026"l "eltexv22026"[C[C[1Pltexv22026"[1Ptexv22026"[1Pexv22026"[1Pxv22026"[1Pv22026"[1P22026"[C[1P026"[1P026"[1P26"[1P6"[1P"[Kroot@eltex-practice2-v2:~# git config --global user.mail ""[Kroot@eltex-practice2-v2:~# git config --global user.mail ""l"a"d"_"n"i"k"@"m"a"i"l"."r"u"[C
+[?2004l[?2004hroot@eltex-practice2-v2:~# git config --global user.mail "lad_nik@mail.ru"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kinit.defaultBrand[Kch main
+[?2004l[?2004hroot@eltex-practice2-v2:~# [Kroot@eltex-practice2-v2:~# [Kroot@eltex-practice2-v2:~# [Kroot@eltex-practice2-v2:~# [Kroot@eltex-practice2-v2:~# git config --global init.defaultBranch mainuser.mail "lad_nik@mail.ru"[1@у[1P[1@r[1P[1@e[Kroot@eltex-practice2-v2:~# git config --global user.email "lad_nik@mail.ru"[Kroot@eltex-practice2-v2:~# git config --global user.email "lad_nik@mail.ru"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004hroot@eltex-practice2-v2:~# gh
+[?2004lCommand 'gh' not found, but can be installed with:
+snap install gh  # version 2.86.0-112-gc30647b78, or
+apt  install gh  # version 2.45.0-1ubuntu0.3
+See 'snap info gh' for additional versions.
+[?2004hroot@eltex-practice2-v2:~# apt uo[Kpdate
+[?2004l[33m0% [Working][0m            Hit:1 http://ru.archive.ubuntu.com/ubuntu noble InRelease
+[33m0% [Waiting for headers] [Connecting to security.ubuntu.com][0m[33m0% [Waiting for headers] [Connecting to security.ubuntu.com (91.189.91.81)][0m                                                                           Get:2 http://ru.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+[33m0% [2 InRelease 11.8 kB/126 kB 9%] [Connecting to security.ubuntu.com (91.189.91.81)][0m[33m                                                                                     0% [Waiting for headers][0m[33m0% [Waiting for headers] [Waiting for headers][0m                                              Get:3 http://ru.archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+[33m0% [3 InRelease 4,039 B/126 kB 3%] [Waiting for headers][0m[33m                                                        0% [Waiting for headers][0m[33m0% [Waiting for headers] [Waiting for headers][0m                                              Get:4 http://ru.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1,092 kB]
+[33m0% [4 Packages 8,608 B/1,092 kB 1%] [Waiting for headers][0m                                                         Get:5 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+[33m0% [4 Packages 761 kB/1,092 kB 70%] [5 InRelease 14.2 kB/126 kB 11%][0m[33m                                                                    0% [5 InRelease 14.2 kB/126 kB 11%][0m                                   Get:6 http://ru.archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [181 kB]
+                                   Get:7 http://ru.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1,660 kB]
+[33m0% [7 Packages 290 kB/1,660 kB 17%] [5 InRelease 14.2 kB/126 kB 11%][0m[33m0% [4 Packages store 0 B] [7 Packages 423 kB/1,660 kB 25%] [5 InRelease 14.2 kB/126 kB 11%][0m                                                                                           Get:8 http://ru.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [388 kB]
+[33m0% [4 Packages store 0 B] [8 Components-amd64 79.8 kB/388 kB 21%] [5 InRelease 14.2 kB/126 kB 11%][0m[33m                                                                                                  0% [4 Packages store 0 B] [5 InRelease 14.2 kB/126 kB 11%][0m                                                          Get:9 http://ru.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
+[33m0% [4 Packages store 0 B] [9 Components-amd64 0 B/940 B 0%] [5 InRelease 14.2 kB/126 kB 11%][0m[33m                                                                                            0% [4 Packages store 0 B] [5 InRelease 14.2 kB/126 kB 11%][0m                                                          Get:10 http://ru.archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [5,744 B]
+[33m0% [4 Packages store 0 B] [10 Components-amd64 0 B/5,744 B 0%] [5 InRelease 14.2 kB/126 kB 11%][0m[33m                                                                                               0% [4 Packages store 0 B] [5 InRelease 14.2 kB/126 kB 11%][0m                                                          Get:11 http://ru.archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [10.5 kB]
+[33m0% [4 Packages store 0 B] [11 Components-amd64 9,370 B/10.5 kB 89%] [5 InRelease 14.2 kB/126 kB 11%][0m[33m                                                                                                    0% [11 Components-amd64 9,370 B/10.5 kB 89%] [5 InRelease 14.2 kB/126 kB 11%][0m[33m0% [6 Components-amd64 store 0 B] [11 Components-amd64 9,370 B/10.5 kB 89%] [5 InRelease 14.2 kB/126 kB 11%][0m[33m                                                                                                            0% [6 Components-amd64 store 0 B] [5 InRelease 14.2 kB/126 kB 11%][0m[33m                                                                  0% [5 InRelease 14.2 kB/126 kB 11%][0m[33m0% [7 Packages store 0 B] [5 InRelease 14.2 kB/126 kB 11%][0m[33m                                                          0% [5 InRelease 43.1 kB/126 kB 34%][0m[33m0% [8 Components-amd64 store 0 B] [5 InRelease 43.1 kB/126 kB 34%][0m[33m                                                                  0% [5 InRelease 48.9 kB/126 kB 39%][0m[33m0% [5 InRelease 48.9 kB/126 kB 39%][0m[33m0% [10 Components-amd64 store 0 B] [5 InRelease 48.9 kB/126 kB 39%][0m[33m                                                                   0% [5 InRelease 48.9 kB/126 kB 39%][0m[33m0% [11 Components-amd64 store 0 B] [5 InRelease 48.9 kB/126 kB 39%][0m[33m                                                                   0% [5 InRelease 48.9 kB/126 kB 39%][0m[33m                                   0% [Working][0m[33m97% [Working][0m             Get:12 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [44.8 kB]
+[33m97% [12 Components-amd64 2,659 B/44.8 kB 6%][0m[33m                                            98% [Working][0m[33m98% [12 Components-amd64 store 0 B] [Waiting for headers][0m[33m                                                         98% [Waiting for headers][0m                         Get:13 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [76.3 kB]
+[33m98% [13 Components-amd64 2,658 B/76.3 kB 3%][0m[33m                                            100% [Working][0m[33m100% [13 Components-amd64 store 0 B][0m[33m                                    100% [Working][0m              Fetched 3,837 kB in 2s (2,354 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 3%Reading package lists... 3%Reading package lists... 5%Reading package lists... 5%Reading package lists... 5%Reading package lists... 5%Reading package lists... 6%Reading package lists... 6%Reading package lists... 45%Reading package lists... 45%Reading package lists... 63%Reading package lists... 63%Reading package lists... 63%Reading package lists... 63%Reading package lists... 64%Reading package lists... 64%Reading package lists... 67%Reading package lists... 67%Reading package lists... 69%Reading package lists... 69%Reading package lists... 73%Reading package lists... 73%Reading package lists... 75%Reading package lists... 75%Reading package lists... 81%Reading package lists... 81%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 86%Reading package lists... 86%Reading package lists... 87%Reading package lists... 87%Reading package lists... 91%Reading package lists... 91%Reading package lists... 94%Reading package lists... 94%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+81 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[?2004hroot@eltex-practice2-v2:~# p[Kapt install git gh
+[?2004lReading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+git is already the newest version (1:2.43.0-1ubuntu7.3).
+git set to manually installed.
+The following NEW packages will be installed:
+  gh
+0 upgraded, 1 newly installed, 0 to remove and 81 not upgraded.
+Need to get 8,836 kB of archives.
+After this operation, 45.4 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+[33m0% [Working][0m            Get:1 http://ru.archive.ubuntu.com/ubuntu noble-updates/universe amd64 gh amd64 2.45.0-1ubuntu0.3 [8,836 kB]
+[33m0% [1 gh 4,502 B/8,836 kB 0%][0m[33m31% [1 gh 3,463 kB/8,836 kB 39%][0m[33m75% [1 gh 8,311 kB/8,836 kB 94%][0m[33m                                100% [Working][0m              Fetched 8,836 kB in 1s (6,658 kB/s)
+
+7[0;53r8[1ASelecting previously unselected package gh.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 125689 files and directories currently installed.)
+Preparing to unpack .../gh_2.45.0-1ubuntu0.3_amd64.deb ...
+7[54;0f[42m[30mProgress: [  0%][49m[39m [.......................................................................................................................] 87[54;0f[42m[30mProgress: [ 20%][49m[39m [#######################................................................................................................] 8Unpacking gh (2.45.0-1ubuntu0.3) ...
+7[54;0f[42m[30mProgress: [ 40%][49m[39m [###############################################........................................................................] 8Setting up gh (2.45.0-1ubuntu0.3) ...
+7[54;0f[42m[30mProgress: [ 60%][49m[39m [#######################################################################................................................] 87[54;0f[42m[30mProgress: [ 80%][49m[39m [###############################################################################################........................] 8Processing triggers for man-db (2.12.0-4build2) ...
+
+7[0;54r8[1A[JScanning processes... [                                                                                                                     ]Scanning processes... [=                                                                                                                    ]Scanning processes... [==                                                                                                                   ]Scanning processes... [===                                                                                                                  ]Scanning processes... [====                                                                                                                 ]Scanning processes... [=====                                                                                                                ]Scanning processes... [======                                                                                                               ]Scanning processes... [=======                                                                                                              ]Scanning processes... [========                                                                                                             ]Scanning processes... [=========                                                                                                            ]Scanning processes... [==========                                                                                                           ]Scanning processes... [===========                                                                                                          ]Scanning processes... [============                                                                                                         ]Scanning processes... [=============                                                                                                        ]Scanning processes... [==============                                                                                                       ]Scanning processes... [===============                                                                                                      ]Scanning processes... [================                                                                                                     ]Scanning processes... [=================                                                                                                    ]Scanning processes... [==================                                                                                                   ]Scanning processes... [===================                                                                                                  ]Scanning processes... [====================                                                                                                 ]Scanning processes... [=====================                                                                                                ]Scanning processes... [======================                                                                                               ]Scanning processes... [=======================                                                                                              ]Scanning processes... [========================                                                                                             ]Scanning processes... [=========================                                                                                            ]Scanning processes... [==========================                                                                                           ]Scanning processes... [===========================                                                                                          ]Scanning processes... [============================                                                                                         ]Scanning processes... [=============================                                                                                        ]Scanning processes... [==============================                                                                                       ]Scanning processes... [===============================                                                                                      ]Scanning processes... [================================                                                                                     ]Scanning processes... [=================================                                                                                    ]Scanning processes... [==================================                                                                                   ]Scanning processes... [===================================                                                                                  ]Scanning processes... [====================================                                                                                 ]Scanning processes... [=====================================                                                                                ]Scanning processes... [======================================                                                                               ]Scanning processes... [=======================================                                                                              ]Scanning processes... [========================================                                                                             ]Scanning processes... [=========================================                                                                            ]Scanning processes... [==========================================                                                                           ]Scanning processes... [===========================================                                                                          ]Scanning processes... [============================================                                                                         ]Scanning processes... [=============================================                                                                        ]Scanning processes... [==============================================                                                                       ]Scanning processes... [===============================================                                                                      ]Scanning processes... [================================================                                                                     ]Scanning processes... [=================================================                                                                    ]Scanning processes... [==================================================                                                                   ]Scanning processes... [===================================================                                                                  ]Scanning processes... [====================================================                                                                 ]Scanning processes... [=====================================================                                                                ]Scanning processes... [======================================================                                                               ]Scanning processes... [=======================================================                                                              ]Scanning processes... [========================================================                                                             ]Scanning processes... [=========================================================                                                            ]Scanning processes... [===========================================================                                                          ]Scanning processes... [============================================================                                                         ]Scanning processes... [=============================================================                                                        ]Scanning processes... [==============================================================                                                       ]Scanning processes... [===============================================================                                                      ]Scanning processes... [================================================================                                                     ]Scanning processes... [=================================================================                                                    ]Scanning processes... [==================================================================                                                   ]Scanning processes... [===================================================================                                                  ]Scanning processes... [====================================================================                                                 ]Scanning processes... [=====================================================================                                                ]Scanning processes... [======================================================================                                               ]Scanning processes... [=======================================================================                                              ]Scanning processes... [========================================================================                                             ]Scanning processes... [=========================================================================                                            ]Scanning processes... [==========================================================================                                           ]Scanning processes... [===========================================================================                                          ]Scanning processes... [============================================================================                                         ]Scanning processes... [=============================================================================                                        ]Scanning processes... [==============================================================================                                       ]Scanning processes... [===============================================================================                                      ]Scanning processes... [================================================================================                                     ]Scanning processes... [=================================================================================                                    ]Scanning processes... [==================================================================================                                   ]Scanning processes... [===================================================================================                                  ]Scanning processes... [====================================================================================                                 ]Scanning processes... [=====================================================================================                                ]Scanning processes... [======================================================================================                               ]Scanning processes... [=======================================================================================                              ]Scanning processes... [========================================================================================                             ]Scanning processes... [=========================================================================================                            ]Scanning processes... [==========================================================================================                           ]Scanning processes... [===========================================================================================                          ]Scanning processes... [============================================================================================                         ]Scanning processes... [=============================================================================================                        ]Scanning processes... [==============================================================================================                       ]Scanning processes... [===============================================================================================                      ]Scanning processes... [================================================================================================                     ]Scanning processes... [=================================================================================================                    ]Scanning processes... [==================================================================================================                   ]Scanning processes... [===================================================================================================                  ]Scanning processes... [====================================================================================================                 ]Scanning processes... [=====================================================================================================                ]Scanning processes... [======================================================================================================               ]Scanning processes... [=======================================================================================================              ]Scanning processes... [========================================================================================================             ]Scanning processes... [=========================================================================================================            ]Scanning processes... [==========================================================================================================           ]Scanning processes... [===========================================================================================================          ]Scanning processes... [============================================================================================================         ]Scanning processes... [=============================================================================================================        ]Scanning processes... [==============================================================================================================       ]Scanning processes... [===============================================================================================================      ]Scanning processes... [================================================================================================================     ]Scanning processes... [=================================================================================================================    ]Scanning processes... [==================================================================================================================   ]Scanning processes... [===================================================================================================================  ]Scanning processes... [=====================================================================================================================]Scanning processes...                                                                                                                        
+Scanning linux images... [                                                                                                                  ]Scanning linux images... [============================                                                                                      ]Scanning linux images... [=========================================================                                                         ]Scanning linux images... [=====================================================================================                             ]Scanning linux images... [==================================================================================================================]Scanning linux images...                                                                                                                     
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+[?2004hroot@eltex-practice2-v2:~# ssh [K-keygen -t ed25519 -f ~/.ssh/elg[Ktexv22026git[Kroot@eltex-practice2-v2:~# ssh-keygen -t ed25519 -f ~/.ssh/eltexv22026git[Kroot@eltex-practice2-v2:~# ssh-keygen -t ed25519 -f ~/.ssh/eltexv22026git[Kroot@eltex-practice2-v2:~# ssh-keygen -t ed25519 -f ~/.ssh/eltexv22026git[Kroot@eltex-practice2-v2:~# ssh-keygen -t ed25519 -f ~/.ssh/eltexv22026git
+[?2004lGenerating public/private ed25519 key pair.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /root/.ssh/eltexv22026git
+Your public key has been saved in /root/.ssh/eltexv22026git.pub
+The key fingerprint is:
+SHA256:+Ld+xhPDP75joFQ/Q+gSZQPhVCgNAJOh0M0Qg6bzWaQ root@eltex-practice2-v2
+The key's randomart image is:
++--[ED25519 256]--+
+|.o+=++...o+=.    |
+|.o.o=.  .oo +    |
+|o .o     ..o o   |
+|o E .  .  . o .  |
+| o o  . S  = o   |
+|  o    .  o * +  |
+|        ...+ = o |
+|         ...= =  |
+|         .oo +o+ |
++----[SHA256]-----+
+[?2004hroot@eltex-practice2-v2:~# gh auth login
+[?2004l7[?25l8[0G[2K[0;1;92m? [0m[0;1;99mWhat account do you want to log into?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;1;36m> GitHub.com[0m
+[0;39m  GitHub Enterprise Server[0m
+7[1A[0G[1A[0G8[?25h8[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[0;1;92m? [0m[0;1;99mWhat account do you want to log into?[0m[0;36m GitHub.com[0m
+7[?25l8[0G[2K[0;1;92m? [0m[0;1;99mWhat is your preferred protocol for Git operations on this host?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;1;36m> HTTPS[0m
+[0;39m  SSH[0m
+7[1A[0G[1A[0G8[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[0;1;92m? [0m[0;1;99mWhat is your preferred protocol for Git operations on this host?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;39m  HTTPS[0m
+[0;1;36m> SSH[0m
+7[1A[0G8[?25h8[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[0;1;92m? [0m[0;1;99mWhat is your preferred protocol for Git operations on this host?[0m[0;36m SSH[0m
+7[?25l8[0G[2K[0;1;92m? [0m[0;1;99mUpload your SSH public key to your GitHub account?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;1;36m> /root/.ssh/eltexv22026git.pub[0m
+[0;39m  Skip[0m
+7[1A[0G[1A[0G8[?25h8[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[0;1;92m? [0m[0;1;99mUpload your SSH public key to your GitHub account?[0m[0;36m /root/.ssh/eltexv22026git.pub[0m
+[0G[2K[0;1;92m? [0m[0;1;99mTitle for your SSH key: [0m[0;39m(GitHub CLI) [0m[?25l[?25l7[999;999f[6n8[?25h[6nE[1D[0Keltex-pa[1D[0Kractice2-ph[1D[0KgX-vX[1D[0KY[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1B[0G[1A[?25h[0G[2K[0;1;92m? [0m[0;1;99mTitle for your SSH key: [0m[0;36meltex-practice2-pgX-vY[0m
+7[?25l8[0G[2K[0;1;92m? [0m[0;1;99mHow would you like to authenticate GitHub CLI?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;1;36m> Login with a web browser[0m
+[0;39m  Paste an authentication token[0m
+7[1A[0G[1A[0G8[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[0;1;92m? [0m[0;1;99mHow would you like to authenticate GitHub CLI?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;39m  Login with a web browser[0m
+[0;1;36m> Paste an authentication token[0m
+7[1A[0G8[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[0;1;92m? [0m[0;1;99mHow would you like to authenticate GitHub CLI?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;1;36m> Login with a web browser[0m
+[0;39m  Paste an authentication token[0m
+7[1A[0G[1A[0G8[?25h8[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[0;1;92m? [0m[0;1;99mHow would you like to authenticate GitHub CLI?[0m[0;36m Login with a web browser[0m
+
+[0;33m![0m First copy your one-time code: [0;1;39mCF30-EE71[0m
+[0;1;39mPress Enter[0m to open github.com in your browser... 
+[0;31m![0m Failed opening a web browser at https://github.com/login/device
+  exec: "xdg-open,x-www-browser,www-browser,wslview": executable file not found in $PATH
+  Please try entering the URL in your browser manually
+[0;32m✓[0m Authentication complete.
+- gh config set -h github.com git_protocol ssh
+[0;32m✓[0m Configured git protocol
+[0;33m![0m Authentication credentials saved in plain text
+[0;32m✓[0m Uploaded the SSH key to your GitHub account: [0;1;39m/root/.ssh/eltexv22026git.pub[0m
+[0;32m✓[0m Logged in as [0;1;39mEltexv22026[0m
+[?2004hroot@eltex-practice2-v2:~# gh auth setup-git --go[K[Khose[Kr[Ktname github.com
+[?2004l[?2004hroot@eltex-practice2-v2:~# gh auth state[Kus
+[?2004l[0;1;39mgithub.com[0m
+  [0;32m✓[0m Logged in to github.com account [0;1;39mEltexv22026[0m (/root/.config/gh/hosts.yml)
+  - Active account: [0;1;39mtrue[0m
+  - Git operations protocol: [0;1;39mssh[0m
+  - Token: [0;1;39mgho_************************************[0m
+  - Token scopes: [0;1;39m'admin:public_key', 'gist', 'read:org', 'repo'[0m
+[?2004hroot@eltex-practice2-v2:~# gh repo create --public Mo[K[Km[Keltex
+[?2004l[0;32m✓[0m Created repository Eltexv22026/eltex on GitHub
+  https://github.com/Eltexv22026/eltex
+[?2004hroot@eltex-practice2-v2:~# mrl[Kdir ~.[K/eltex[Kx @[K&& cd ~/eltex
+[?2004lCommand 'mrdir' not found, did you mean:
+  command 'mmdir' from deb simh (3.8.1-6.1)
+  command 'mkdir' from deb coreutils (9.4-3ubuntu6.2)
+  command 'mdir' from deb mtools (4.0.43-1)
+  command 'rmdir' from deb coreutils (9.4-3ubuntu6.2)
+Try: apt install <deb name>
+[?2004hroot@eltex-practice2-v2:~# mrdir ~/eltex && cd ~/eltex[1P[1@r[1P[1@k
+[?2004l[?2004hroot@eltex-practice2-v2:~/eltex# exh[K[Kcho "#" "[C>> README.md[Kroot@eltex-practice2-v2:~/eltex# echo "# ">> README.md[Kroot@eltex-practice2-v2:~/eltex# echo "# ">> README.md[1@П[1@р[1@а[1@к[1@т[1@и[1@ч[1@е[1@с[1@к[1@о[1@е[C[1@ [1@з[1@а[1@н[1@я[1@т[1@и[1@е[C[1@ [1@2[C[1@ [1P[1@.[C[1@ [1@Р[1@а[1@з[1@д[1@е[1@л[C[1@ [1@3[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ [C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004hroot@eltex-practice2-v2:~/eltex# git init
+[?2004lInitialized empty Git repository in /root/eltex/.git/
+[?2004hroot@eltex-practice2-v2:~/eltex# git add READMI[KE.md
+[?2004l[?2004hroot@eltex-practice2-v2:~/eltex# git commit -m ""F"[1P"f"i"r"s"t" "c"o"m"m"i"t"[C
+[?2004l[main (root-commit) 300a541] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+[?2004hroot@eltex-practice2-v2:~/eltex# git v[Kbranch -M mait[Kb[Kn
+[?2004l[?2004hroot@eltex-practice2-v2:~/eltex# git remote add original[K[K https://go[Kithb[Kub.com/eltexv22026.[K/eltex.git
+[?2004l[?2004hroot@eltex-practice2-v2:~/eltex# git status
+[?2004lOn branch main
+nothing to commit, working tree clean
+[?2004hroot@eltex-practice2-v2:~/eltex# git push -u origin main
+[?2004lEnumerating objects: 3, done.
+Counting objects:  33% (1/3)Counting objects:  66% (2/3)Counting objects: 100% (3/3)Counting objects: 100% (3/3), done.
+Delta compression using up to 2 threads
+Compressing objects:  50% (1/2)Compressing objects: 100% (2/2)Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 267 bytes | 267.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: This repository moved. Please use the new location:[K
+remote:   https://github.com/Eltexv22026/eltex.git[K
+To https://github.com/eltexv22026/eltex.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+[?2004hroot@eltex-practice2-v2:~/eltex# ml[Kkdit[Kr -p module1/tasl[Kk1
+[?2004l[?2004hroot@eltex-practice2-v2:~/eltex# mkdir -p module1/task1[K2
+[?2004l[?2004hroot@eltex-practice2-v2:~/eltex# mkdir -p module1/task2[K3
+[?2004l[?2004hroot@eltex-practice2-v2:~/eltex# cd ..
+[?2004l[?2004hroot@eltex-practice2-v2:~# dl[K[Kls
+[?2004l[0m[01;31mbackup_7zip.tar.7z[0m    [01;31mbackup_gzip.tar.gz[0m  [01;34metc_backup[0m     [01;34metc_backup_7zip[0m  [01;31metc_backup.tar.bz2[0m
+[01;31mbackup_bzip2.tar.bz2[0m  [01;34meltex[0m               [01;31metc_backup.7z[0m  [01;34metc_backup_gzip[0m  [01;31metc_backup.tar.gz[0m
+[?2004hroot@eltex-practice2-v2:~# у[Ke[Kelte[Kex
+[?2004lCommand 'eltex' not found, did you mean:
+  command 'mltex' from deb texlive-formats-extra (2023.20231207-3)
+  command 'etex' from deb texlive-binaries (2023.20230311.66589-8build1)
+  command 'eptex' from deb texlive-binaries (2023.20230311.66589-8build1)
+Try: apt install <deb name>
+[?2004hroot@eltex-practice2-v2:~# cd eltex/
+[?2004l[?2004hroot@eltex-practice2-v2:~/eltex# ls
+[?2004l[0m[01;34mmodule1[0m  README.md
+[?2004hroot@eltex-practice2-v2:~/eltex# cs[Kd mol[Kdule1/
+[?2004l[?2004hroot@eltex-practice2-v2:~/eltex/module1# cd
+[?2004l[?2004hroot@eltex-practice2-v2:~# ls
+[?2004l[0m[01;31mbackup_7zip.tar.7z[0m    [01;31mbackup_gzip.tar.gz[0m  [01;34metc_backup[0m     [01;34metc_backup_7zip[0m  [01;31metc_backup.tar.bz2[0m
+[01;31mbackup_bzip2.tar.bz2[0m  [01;34meltex[0m               [01;31metc_backup.7z[0m  [01;34metc_backup_gzip[0m  [01;31metc_backup.tar.gz[0m
+[?2004hroot@eltex-practice2-v2:~# cd elt
+[?2004l-bash: cd: elt: No such file or directory
+[?2004hroot@eltex-practice2-v2:~# cd eltex/
+[?2004l[?2004hroot@eltex-practice2-v2:~/eltex# cd mo[K[K[K[K[Kls
+[?2004l[0m[01;34mmodule1[0m  README.md
+[?2004hroot@eltex-practice2-v2:~/eltex# cd module1/
+[?2004l[?2004hroot@eltex-practice2-v2:~/eltex/module1# ls
+[?2004l[0m[01;34mtask1[0m  [01;34mtask2[0m  [01;34mtask3[0m
+[?2004hroot@eltex-practice2-v2:~/eltex/module1# cd
+[?2004l[?2004hroot@eltex-practice2-v2:~# who -m
+[?2004lroot     pts/0        2026-07-12 14:54 (172.16.8.4)
+[?2004hroot@eltex-practice2-v2:~# echo @[K#[K@[K[K[K[K[K[K[Kroot@eltex-practice2-v2:~# [Kroot@eltex-practice2-v2:~# man scp
+[?2004l[?1049h[?1h=[4mSCP[24m(1)                                                    General Commands Manual                                                  [4mSCP[24m(1)[m
+[m
+[1mNAME[0m[m
+       scp — OpenSSH secure file copy[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mscp  [22m[[1m-346ABCOpqRrsTv[22m]  [[1m-c  [4m[22mcipher[24m]  [[1m-D  [4m[22msftp_server_path[24m]  [[1m-F  [4m[22mssh_config[24m]  [[1m-i  [4m[22midentity_file[24m]  [[1m-J  [4m[22mdestination[24m]  [[1m-l [4m[22mlimit[24m][m
+           [[1m-o [4m[22mssh_option[24m] [[1m-P [4m[22mport[24m] [[1m-S [4m[22mprogram[24m] [[1m-X [4m[22msftp_option[24m] [4msource[24m [4m...[24m [4mtarget[0m[m
+[m
+[1mDESCRIPTION[0m[m
+       [1mscp [22mcopies files between hosts on a network.[m
+[m
+       [1mscp [22muses the SFTP protocol over a [4mssh[24m(1) connection for data transfer, and uses the same authentication and provides the same  se‐[m
+       curity as a login session.[m
+[m
+       [1mscp [22mwill ask for passwords or passphrases if they are needed for authentication.[m
+[m
+       The  [4msource[24m and [4mtarget[24m may be specified as a local pathname, a remote host with optional path in the form [user@]host:[path], or a[m
+       URI in the form scp://[user@]host[:port][/path].  Local file names can be made explicit using absolute or  relative  pathnames  to[m
+       avoid [1mscp [22mtreating file names containing ‘:’ as host specifiers.[m
+[m
+       When  copying  between  two  remote hosts, if the URI format is used, a [4mport[24m cannot be specified on the [4mtarget[24m if the [1m-R [22moption is[m
+       used.[m
+[m
+       The options are as follows:[m
+[m
+       [1m-3      [22mCopies between two remote hosts are transferred through the local host.  Without this option the data is  copied  directly[m
+               between  the two remote hosts.  Note that, when using the legacy SCP protocol (via the [1m-O [22mflag), this option selects batch[m
+               mode for the second host as [1mscp [22mcannot ask for passwords or passphrases for both hosts.  This mode is the default.[m
+[m
+       [1m-4      [22mForces [1mscp [22mto use IPv4 addresses only.[m
+[m
+       [1m-6      [22mForces [1mscp [22mto use IPv6 addresses only.[m
+[m
+       [1m-A      [22mAllows forwarding of [4mssh-agent[24m(1) to the remote system.  The default is not to forward an authentication agent.[m
+[m
+       [1m-B      [22mSelects batch mode (prevents asking for passwords or passphrases).[m
+[m
+       [1m-C      [22mCompression enable.  Passes the [1m-C [22mflag to [4mssh[24m(1) to enable compression.[m
+[m
+       [1m-c [4m[22mcipher[0m[m
+               Selects the cipher to use for encrypting the data transfer.  This option is directly passed to [4mssh[24m(1).[m
+[m
+       [1m-D [4m[22msftp_server_path[0m[m
+               Connect directly to a local SFTP server program rather than a remote one via [4mssh[24m(1).  This option may be useful in  debug‐[m
+               ging the client and server.[m
+[m
+       [1m-F [4m[22mssh_config[0m[m
+               Specifies an alternative per-user configuration file for [1mssh[22m.  This option is directly passed to [4mssh[24m(1).[m
+[m
+       [1m-i [4m[22midentity_file[0m[m
+               Selects  the  file  from  which the identity (private key) for public key authentication is read.  This option is directly[m
+               passed to [4mssh[24m(1).[m
+[3m Manual page scp(1) line 1 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page scp(1) line 2 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       [1m-J [4m[22mdestination[0m[m
+[3m Manual page scp(1) line 3 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K               Connect to the target host by first making an [1mscp [22mconnection to the jump host described by [4mdestination[24m and then establish‐[m
+[3m Manual page scp(1) line 4 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K               ing a TCP forwarding to the ultimate destination from there.  Multiple jump hops may be specified separated by comma char‐[m
+[3m Manual page scp(1) line 5 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K               acters.  This is a shortcut to specify a [1mProxyJump [22mconfiguration directive.  This option is directly passed to [4mssh[24m(1).[m
+[3m Manual page scp(1) line 6 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page scp(1) line 7 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       [1m-l [4m[22mlimit[0m[m
+[3m Manual page scp(1) line 8 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K               Limits the used bandwidth, specified in Kbit/s.[m
+[3m Manual page scp(1) line 9 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page scp(1) line 10 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       [1m-O      [22mUse the legacy SCP protocol for file transfers instead of the SFTP protocol.  Forcing the use of the SCP protocol  may  be[m
+[3m Manual page scp(1) line 11 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K               necessary  for  servers  that do not implement SFTP, for backwards-compatibility for particular filename wildcard patterns[m
+[3m Manual page scp(1) line 12 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K               and for expanding paths with a ‘~’ prefix for older SFTP servers.[m
+[3m Manual page scp(1) line 13 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page scp(1) line 14 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       [1m-o [4m[22mssh_option[0m[m
+[3m Manual page scp(1) line 15 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K               Can be used to pass options to [1mssh [22min the format used in [4mssh_config[24m(5).  This is useful for specifying options  for  which[m
+[3m Manual page scp(1) line 16 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K               there  is no separate [1mscp [22mcommand-line flag.  For full details of the options listed below, and their possible values, see[m
+[3m Manual page scp(1) line 17 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K               [4mssh_config[24m(5).[m
+[3m Manual page scp(1) line 18 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page scp(1) line 19 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     AddressFamily[m
+[3m Manual page scp(1) line 20 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     BatchMode[m
+[3m Manual page scp(1) line 21 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     BindAddress[m
+[3m Manual page scp(1) line 22 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     BindInterface[m
+[3m Manual page scp(1) line 23 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     CanonicalDomains[m
+[3m Manual page scp(1) line 24 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     CanonicalizeFallbackLocal[m
+[3m Manual page scp(1) line 25 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     CanonicalizeHostname[m
+[3m Manual page scp(1) line 26 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     CanonicalizeMaxDots[m
+[3m Manual page scp(1) line 27 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     CanonicalizePermittedCNAMEs[m
+[3m Manual page scp(1) line 28 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     CASignatureAlgorithms[m
+[3m Manual page scp(1) line 29 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     CertificateFile[m
+[3m Manual page scp(1) line 30 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     CheckHostIP[m
+[3m Manual page scp(1) line 31 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     Ciphers[m
+[3m Manual page scp(1) line 32 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     Compression[m
+[3m Manual page scp(1) line 33 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     ConnectionAttempts[m
+[3m Manual page scp(1) line 34 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     ConnectTimeout[m
+[3m Manual page scp(1) line 35 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     ControlMaster[m
+[3m Manual page scp(1) line 36 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     ControlPath[m
+[3m Manual page scp(1) line 37 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     ControlPersist[m
+[3m Manual page scp(1) line 38 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     GlobalKnownHostsFile[m
+[3m Manual page scp(1) line 39 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     GSSAPIAuthentication[m
+[3m Manual page scp(1) line 40 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     GSSAPIDelegateCredentials[m
+[3m Manual page scp(1) line 41 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     HashKnownHosts[m
+[3m Manual page scp(1) line 42 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     Host[m
+[3m Manual page scp(1) line 43 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     HostbasedAcceptedAlgorithms[m
+[3m Manual page scp(1) line 44 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     HostbasedAuthentication[m
+[3m Manual page scp(1) line 45 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     HostKeyAlgorithms[m
+[3m Manual page scp(1) line 46 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     HostKeyAlias[m
+[3m Manual page scp(1) line 47 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     Hostname[m
+[3m Manual page scp(1) line 48 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     IdentitiesOnly[m
+[3m Manual page scp(1) line 49 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     IdentityAgent[m
+[3m Manual page scp(1) line 50 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     IdentityFile[m
+[3m Manual page scp(1) line 51 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     IPQoS[m
+[3m Manual page scp(1) line 52 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     KbdInteractiveAuthentication[m
+[3m Manual page scp(1) line 53 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     KbdInteractiveDevices[m
+[3m Manual page scp(1) line 54 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     KexAlgorithms[m
+[3m Manual page scp(1) line 55 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     KnownHostsCommand[m
+[3m Manual page scp(1) line 56 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     LogLevel[m
+[3m Manual page scp(1) line 57 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     MACs[m
+[3m Manual page scp(1) line 58 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     NoHostAuthenticationForLocalhost[m
+[3m Manual page scp(1) line 59 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     NumberOfPasswordPrompts[m
+[3m Manual page scp(1) line 60 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     PasswordAuthentication[m
+[3m Manual page scp(1) line 61 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     PKCS11Provider[m
+[3m Manual page scp(1) line 62 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     Port[m
+[3m Manual page scp(1) line 63 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     PreferredAuthentications[m
+[3m Manual page scp(1) line 64 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     ProxyCommand[m
+[3m Manual page scp(1) line 65 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     ProxyJump[m
+[3m Manual page scp(1) line 66 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     PubkeyAcceptedAlgorithms[m
+[3m Manual page scp(1) line 67 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     PubkeyAuthentication[m
+[3m Manual page scp(1) line 68 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     RekeyLimit[m
+[3m Manual page scp(1) line 69 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     RequiredRSASize[m
+[3m Manual page scp(1) line 70 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     SendEnv[m
+[3m Manual page scp(1) line 71 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     ServerAliveInterval[m
+[3m Manual page scp(1) line 72 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     ServerAliveCountMax[m
+[3m Manual page scp(1) line 73 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     SetEnv[m
+[3m Manual page scp(1) line 74 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     StrictHostKeyChecking[m
+[3m Manual page scp(1) line 75 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     TCPKeepAlive[m
+[3m Manual page scp(1) line 76 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     UpdateHostKeys[m
+[3m Manual page scp(1) line 77 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     User[m
+[3m Manual page scp(1) line 78 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     UserKnownHostsFile[m
+[3m Manual page scp(1) line 79 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                     VerifyHostKeyDNS[m
+[3m Manual page scp(1) line 80 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page scp(1) line 81 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       [1m-P [4m[22mport[0m[m
+[3m Manual page scp(1) line 82 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K               Specifies the port to connect to on the remote host.  Note that this option is written with a capital ‘P’, because  [1m-p  [22mis[m
+[3m Manual page scp(1) line 83 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K               already reserved for preserving the times and mode bits of the file.[m
+[3m Manual page scp(1) line 84 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page scp(1) line 85 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       [1m-p      [22mPreserves modification times, access times, and file mode bits from the source file.[m
+[3m Manual page scp(1) line 86 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page scp(1) line 87 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       [1m-q      [22mQuiet mode: disables the progress meter as well as warning and diagnostic messages from [4mssh[24m(1).[m
+[3m Manual page scp(1) line 88 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page scp(1) line 89 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       [1m-R      [22mCopies  between  two  remote  hosts are performed by connecting to the origin host and executing [1mscp [22mthere.  This requires[m
+[3m Manual page scp(1) line 90 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K               that [1mscp [22mrunning on the origin host can authenticate to the destination host without requiring a password.[m
+[3m Manual page scp(1) line 91 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page scp(1) line 92 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       [1m-r      [22mRecursively copy entire directories.  Note that [1mscp [22mfollows symbolic links encountered in the tree traversal.[m
+[3m Manual page scp(1) line 93 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page scp(1) line 94 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       [1m-S [4m[22mprogram[0m[m
+[3m Manual page scp(1) line 95 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K               Name of [4mprogram[24m to use for the encrypted connection.  The program must understand [4mssh[24m(1) options.[m
+[3m Manual page scp(1) line 96 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page scp(1) line 97 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       [1m-T      [22mDisable strict filename checking.  By default when copying files from a remote host to a local directory [1mscp  [22mchecks  that[m
+[3m Manual page scp(1) line 98 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K               the  received filenames match those requested on the command-line to prevent the remote end from sending unexpected or un‐[m
+[3m Manual page scp(1) line 99 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K               wanted files.  Because of differences in how various operating systems and  shells  interpret  filename  wildcards,  these[m
+[3m Manual page scp(1) line 100 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K               checks may cause wanted files to be rejected.  This option disables these checks at the expense of fully trusting that the[m
+[3m Manual page scp(1) line 101 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K               server will not send unexpected filenames.[m
+[3m Manual page scp(1) line 102 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page scp(1) line 103 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       [1m-v      [22mVerbose  mode.  Causes [1mscp [22mand [4mssh[24m(1) to print debugging messages about their progress.  This is helpful in debugging con‐[m
+[3m Manual page scp(1) line 104 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K               nection, authentication, and configuration problems.[m
+[3m Manual page scp(1) line 105 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page scp(1) line 106 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       [1m-X [4m[22msftp_option[0m[m
+[3m Manual page scp(1) line 107 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K               Specify an option that controls aspects of SFTP protocol behaviour.  The valid options are:[m
+[3m Manual page scp(1) line 108 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page scp(1) line 109 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K               [1mnrequests[22m=[4mvalue[0m[m
+[3m Manual page scp(1) line 110 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                       Controls how many concurrent SFTP read or write requests may be in progress at any point in time during a download[m
+[3m Manual page scp(1) line 111 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                       or upload.  By default 64 requests may be active concurrently.[m
+[3m Manual page scp(1) line 112 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page scp(1) line 113 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K               [1mbuffer[22m=[4mvalue[0m[m
+[3m Manual page scp(1) line 114 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                       Controls the maximum buffer size for a single SFTP read/write operation used during download or  upload.   By  de‐[m
+[3m Manual page scp(1) line 115 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K                       fault a 32KB buffer is used.[m
+[3m Manual page scp(1) line 116 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page scp(1) line 117 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[1mEXIT STATUS[0m[m
+[3m Manual page scp(1) line 118 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       The [1mscp [22mutility exits 0 on success, and >0 if an error occurs.[m
+[3m Manual page scp(1) line 119 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page scp(1) line 120 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[1mSEE ALSO[0m[m
+[3m Manual page scp(1) line 121 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       [4msftp[24m(1), [4mssh[24m(1), [4mssh-add[24m(1), [4mssh-agent[24m(1), [4mssh-keygen[24m(1), [4mssh_config[24m(5), [4msftp-server[24m(8), [4msshd[24m(8)[m
+[3m Manual page scp(1) line 122 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page scp(1) line 123 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[1mHISTORY[0m[m
+[3m Manual page scp(1) line 124 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       [1mscp [22mis based on the rcp program in BSD source code from the Regents of the University of California.[m
+[3m Manual page scp(1) line 125 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page scp(1) line 126 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       Since OpenSSH 9.0, [1mscp [22mhas used the SFTP protocol for transfers by default.[m
+[3m Manual page scp(1) line 127 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page scp(1) line 128 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[1mAUTHORS[0m[m
+[3m Manual page scp(1) line 129 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       Timo Rinne <[4mtri@iki.fi[24m>[m
+[3m Manual page scp(1) line 130 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       Tatu Ylonen <[4mylo@cs.hut.fi[24m>[m
+[3m Manual page scp(1) line 131 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page scp(1) line 132 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[1mCAVEATS[0m[m
+[3m Manual page scp(1) line 133 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       The  legacy SCP protocol (selected by the [1m-O [22mflag) requires execution of the remote user's shell to perform [4mglob[24m(3) pattern match‐[m
+[3m Manual page scp(1) line 134 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       ing.  This requires careful quoting of any characters that have special meaning to the remote shell, such as quote characters.[m
+[3m Manual page scp(1) line 135 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page scp(1) line 136 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[KDebian                                                      December 16, 2022                                                      [4mSCP[24m(1)[m
+[3m Manual page scp(1) line 137 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[K[3m Manual page scp(1) line 137/189 (END) (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[K[3m Manual page scp(1) line 137/189 (END) (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[K[3m Manual page scp(1) line 137/189 (END) (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[K[3m Manual page scp(1) line 137/189 (END) (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[K[3m Manual page scp(1) line 137/189 (END) (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[K[3m Manual page scp(1) line 137/189 (END) (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[K[3m Manual page scp(1) line 137/189 (END) (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[K[3m Manual page scp(1) line 137/189 (END) (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[K[3m Manual page scp(1) line 137/189 (END) (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[K[3m Manual page scp(1) line 137/189 (END) (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[K[3m Manual page scp(1) line 137/189 (END) (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[K[3m Manual page scp(1) line 137/189 (END) (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[K[3m Manual page scp(1) line 137/189 (END) (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[K[3m Manual page scp(1) line 137/189 (END) (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[K[3m Manual page scp(1) line 137/189 (END) (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[K[3m Manual page scp(1) line 137/189 (END) (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[K[3m Manual page scp(1) line 137/189 (END) (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[K[3m Manual page scp(1) line 137/189 (END) (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[K[3m Manual page scp(1) line 137/189 (END) (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[K[3m Manual page scp(1) line 137/189 (END) (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[K[3m Manual page scp(1) line 137/189 (END) (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[K[3m Manual page scp(1) line 137/189 (END) (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[K[3m Manual page scp(1) line 137/189 (END) (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[K[3m Manual page scp(1) line 137/189 (END) (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[K[3m Manual page scp(1) line 137/189 (END) (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[K[3m Manual page scp(1) line 137/189 (END) (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[K[3m Manual page scp(1) line 137/189 (END) (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[K[3m Manual page scp(1) line 137/189 (END) (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[K[3m Manual page scp(1) line 137/189 (END) (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[K[3m Manual page scp(1) line 137/189 (END) (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[K[3m Manual page scp(1) line 137/189 (END) (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[K[3m Manual page scp(1) line 137/189 (END) (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[K[3m Manual page scp(1) line 137/189 (END) (press h for help or q to quit)[23m[K[K[?1l>[?1049l[?2004hroot@eltex-practice2-v2:~# man scp[1Pwho -m[4Pcdlscd module1/ls[Kcd eltex/[K[4Plscd eltex/ls[Kcd module1/ls[Kcdwho -mman scp[K[Kroot@eltex-practice2-v2:~# [Kroot@eltex-practice2-v2:~# [Kroot@eltex-practice2-v2:~# [Kroot@eltex-practice2-v2:~# scp eltex-v2@217.71.138.1 -p 44556 [K[K[K[K[K[K[K[K[K[K[C eltex-v2@217.71.138.1- eltex-v2@217.71.138.1З eltex-v2@217.71.138.1[1P eltex-v2@217.71.138.1P eltex-v2@217.71.138.1[C eltex-v2@217.71.138.14 eltex-v2@217.71.138.14 eltex-v2@217.71.138.15 eltex-v2@217.71.138.15 eltex-v2@217.71.138.16 eltex-v2@217.71.138.1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:`[K~/p[Kroot@eltex-practice2-v2:~# scp -P 44556 eltex-v2@217.71.138.1:~/p[Kroot@eltex-practice2-v2:~# scp -P 44556 eltex-v2@217.71.138.1:~/p[Kroot@eltex-practice2-v2:~# scp -P 44556 eltex-v2@217.71.138.1:~/p[Kroot@eltex-practice2-v2:~# scp -P 44556 eltex-v2@217.71.138.1:~/p[Keltex-[K_v2[Kroot@eltex-practice2-v2:~# scp -P 44556 eltex-v2@217.71.138.1:~/eltex_v2[Kroot@eltex-practice2-v2:~# scp -P 44556 eltex-v2@217.71.138.1:~/eltex_v2[Kroot@eltex-practice2-v2:~# scp -P 44556 eltex-v2@217.71.138.1:~/eltex_v2[Kroot@eltex-practice2-v2:~# scp -P 44556 eltex-v2@217.71.138.1:~/eltex_v2[1Pv2-v2[C[C_part.log ~[Kroot@eltex-practice2-v2:~# scp -P 44556 eltex-v2@217.71.138.1:~/eltex-v2_part.log ~[Kroot@eltex-practice2-v2:~# scp -P 44556 eltex-v2@217.71.138.1:~/eltex-v2_part.log ~el[K[K/eltex/modul1.ta[K[K[K/[K[Ke/[K1/e[Kta[K[K[K[K[K[K[K[K/root/eltex/module1/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K~/elt/root/eltex/module1/task1/[Kroot@eltex-practice2-v2:~# scp -P 44556 eltex-v2@217.71.138.1:~/eltex-v2_part.log /root/eltex/module1/task1/
+[?2004l^C[?2004hroot@eltex-practice2-v2:~# scp -P 44556 eltex-v2@217.71.138.1:~/eltex-v2_part.log /root/eltex/module1/task1/[1P[1P[1P[1P[1P[1P[1P[1P[1P
+[?2004l^C[?2004hroot@eltex-practice2-v2:~# who -m
+[?2004lroot     pts/0        2026-07-12 14:54 (172.16.8.4)
+[?2004hroot@eltex-practice2-v2:~# [Kroot@eltex-practice2-v2:~# [Kroot@eltex-practice2-v2:~# [Kroot@eltex-practice2-v2:~# [Kroot@eltex-practice2-v2:~# [Kroot@eltex-practice2-v2:~# [Kroot@eltex-practice2-v2:~# who -mscp eltex-v2@217.71.138.1:~/eltex-v2_part.log /root/eltex/module1/task1/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9@-P 44556 [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kroot@eltex-practice2-v2:~# scp -P 44556 eltex-v2@217.71.138.1:~/eltex-v2_part.log /root/eltex/module1/task1/[Kroot@eltex-practice2-v2:~# scp -P 44556 eltex-v2@217.71.138.1:~/eltex-v2_part.log /root/eltex/module1/task1/[Kroot@eltex-practice2-v2:~# scp -P 44556 eltex-v2@217.71.138.1:~/eltex-v2_part.log /root/eltex/module1/task1/
+[?2004l^C[?2004hroot@eltex-practice2-v2:~# [Kroot@eltex-practice2-v2:~# [Kroot@eltex-practice2-v2:~# [Kroot@eltex-practice2-v2:~# [Kroot@eltex-practice2-v2:~# exit
+[?2004llogout
+Connection to 172.16.9.176 closed.
+[?2004heltex-v2@eltex-2026-summer:~$ [Keltex-v2@eltex-2026-summer:~$ [Keltex-v2@eltex-2026-summer:~$ scp ~pr/bin[K[K[K[K[K[K[K[Ksl[K[Kls -l[Kls[K
+[?2004ltotal 680
+drwxr-xr-x 2 eltex-v2 eltex-v2   4096 июл  7 22:44 [0m[01;34m2026-01[0m
+drwxr-xr-x 2 eltex-v2 eltex-v2   4096 июл  7 22:44 [01;34m2026-02[0m
+drwxr-xr-x 2 eltex-v2 eltex-v2   4096 июл  7 22:44 [01;34m2026-03[0m
+drwxr-xr-x 2 eltex-v2 eltex-v2   4096 июл  7 22:44 [01;34m2026-04[0m
+drwxr-xr-x 2 eltex-v2 eltex-v2   4096 июл  7 22:44 [01;34m2026-05[0m
+drwxr-xr-x 2 eltex-v2 eltex-v2   4096 июл  7 22:44 [01;34m2026-06[0m
+drwxr-xr-x 2 eltex-v2 eltex-v2   4096 июл  7 22:44 [01;34m2026-07[0m
+drwxr-xr-x 2 eltex-v2 eltex-v2   4096 июл  7 22:44 [01;34m2026-08[0m
+drwxr-xr-x 2 eltex-v2 eltex-v2   4096 июл  7 22:44 [01;34m2026-09[0m
+drwxr-xr-x 2 eltex-v2 eltex-v2   4096 июл  7 22:44 [01;34m2026-10[0m
+drwxr-xr-x 2 eltex-v2 eltex-v2   4096 июл  7 22:44 [01;34m2026-11[0m
+drwxr-xr-x 2 eltex-v2 eltex-v2   4096 июл  7 22:44 [01;34m2026-12[0m
+drwxr-xr-x 2 eltex-v2 eltex-v2   4096 июл  9 20:42 [01;34mD1[0m
+-rw-r--r-- 1 eltex-v2 eltex-v2   2880 июл  9 20:49 eltex-v2_part3_gt20M.log
+-rw-r--r-- 1 eltex-v2 eltex-v2    782 июл  9 21:06 eltex-v2_part3.log
+-rw-r--r-- 1 eltex-v2 eltex-v2  16240 июл  7 22:46 eltex-v2_part.log
+-rw-r--r-- 1 eltex-v2 eltex-v2 371578 июл 12 19:27 practice2_eltex-v2_part1.log
+-rw-r--r-- 1 eltex-v2 eltex-v2 143215 июл 12 20:40 practice2_eltex-v2_part2.log
+-rw-r--r-- 1 eltex-v2 eltex-v2  79074 июл 12 23:01 practice2_eltex-v2_part3.log
+-rw-r--r-- 1 eltex-v2 eltex-v2    183 июл  6 16:33 report_part1.txt
+-rw-r--r-- 1 eltex-v2 eltex-v2    847 июл  7 22:11 typescript
+[?2004heltex-v2@eltex-2026-summer:~$ scp ~/elt/home/eltex-v2/eltex-v2_part.log re[Koot@172.16.9.176:/root/eltex/b[Kmld[K[Kos[Kdule1/tasl[Kk1/
+[?2004leltex-v2_part.log                                                                                            0%    0     0.0KB/s   --:-- ETAeltex-v2_part.log                                                                                          100%   16KB  27.4MB/s   00:00    
+[?2004heltex-v2@eltex-2026-summer:~$ scp /home/eltex-v2/eltex-v2_part.log root@172.16.9.176:/root/eltex/module1/task1/[C[1@2[1P[1@3
+[?2004leltex-v2_part3.log                                                                                           0%    0     0.0KB/s   --:-- ETAeltex-v2_part3.log                                                                                         100%  782    37.2KB/s   00:00    
+[?2004heltex-v2@eltex-2026-summer:~$ scp /home/eltex-v2/eltex-v2_part3.log root@172.16.9.176:/root/eltex/module1/task1/[1P[1@2[1P[1@3[1@_[10@gt20M.log [1P[1P[1P[1P root@172.16.9.176:/root/eltex/module1/task1/[1Proot@172.16.9.176:/root/eltex/module1/task1/
+[?2004leltex-v2_part3_gt20M.log                                                                                     0%    0     0.0KB/s   --:-- ETAeltex-v2_part3_gt20M.log                                                                                   100% 2880     2.0MB/s   00:00    
+[?2004heltex-v2@eltex-2026-summer:~$ scp /home/eltex-v2/eltex-v2_part3_gt20M.log root@172.16.9.176:/root/eltex/module1/task1/[C[C[C[C[C[C[C[C[1P/2/[C[C[C[C[C[1P root@172.16.9.176:/root/eltex/module1/task2/[1P root@172.16.9.176:/root/eltex/module1/task2/[1P root@172.16.9.176:/root/eltex/module1/task2/[1P root@172.16.9.176:/root/eltex/module1/task2/[1P root@172.16.9.176:/root/eltex/module1/task2/[1P root@172.16.9.176:/root/eltex/module1/task2/[1P root@172.16.9.176:/root/eltex/module1/task2/[1P root@172.16.9.176:/root/eltex/module1/task2/[1P root@172.16.9.176:/root/eltex/module1/task2/[1P root@172.16.9.176:/root/eltex/module1/task2/[1P root@172.16.9.176:/root/eltex/module1/task2/[1P root@172.16.9.176:/root/eltex/module1/task2/[1P root@172.16.9.176:/root/eltex/module1/task2/[1P root@172.16.9.176:/root/eltex/module1/task2/[1P root@172.16.9.176:/root/eltex/module1/task2/[1P root@172.16.9.176:/root/eltex/module1/task2/[1P root@172.16.9.176:/root/eltex/module1/task2/[1P root@172.16.9.176:/root/eltex/module1/task2/[1P root@172.16.9.176:/root/eltex/module1/task2/[1P root@172.16.9.176:/root/eltex/module1/task2/[1P root@172.16.9.176:/root/eltex/module1/task2/[1P root@172.16.9.176:/root/eltex/module1/task2/[1P root@172.16.9.176:/root/eltex/module1/task2/[1P root@172.16.9.176:/root/eltex/module1/task2/[1P root@172.16.9.176:/root/eltex/module1/task2// root@172.16.9.176:/root/eltex/module1/task2/p root@172.16.9.176:/root/eltex/module1/task2/r root@172.16.9.176:/root/eltex/module1/task2/actice2_eltex-v2_part root@172.16.9.176:/root/eltex/module1/task2/1 root@172.16.9.176:/root/eltex/module1/task2// root@172.16.9.176:/root/eltex/module1/task2/[1P root@172.16.9.176:/root/eltex/module1/task2/. root@172.16.9.176:/root/eltex/module1/task2/l root@172.16.9.176:/root/eltex/module1/task2/o root@172.16.9.176:/root/eltex/module1/task2/g root@172.16.9.176:/root/eltex/module1/task2/
+[?2004lpractice2_eltex-v2_part1.log                                                                                 0%    0     0.0KB/s   --:-- ETApractice2_eltex-v2_part1.log                                                                               100%  363KB 108.3MB/s   00:00    
+[?2004heltex-v2@eltex-2026-summer:~$ scp /home/eltex-v2/practice2_eltex-v2_part1.log root@172.16.9.176:/root/eltex/module1/task2/[1P[1@2
+[?2004lpractice2_eltex-v2_part2.log                                                                                 0%    0     0.0KB/s   --:-- ETApractice2_eltex-v2_part2.log                                                                               100%  140KB  67.4MB/s   00:00    
+[?2004heltex-v2@eltex-2026-summer:~$ ы[Kssh [Keltex-v2@eltex-2026-summer:~$ ssh [Keltex-v2@eltex-2026-summer:~$ ssh root@172.16.9.176
+[?2004lWelcome to Ubuntu 24.04.2 LTS (GNU/Linux 6.8.0-134-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Sun Jul 12 04:06:41 PM UTC 2026
+
+  System load:  0.03               Processes:              113
+  Usage of /:   41.9% of 14.66GB   Users logged in:        0
+  Memory usage: 7%                 IPv4 address for ens18: 172.16.9.176
+  Swap usage:   0%
+
+
+Expanded Security Maintenance for Applications is not enabled.
+
+83 updates can be applied immediately.
+1 of these updates is a standard security update.
+To see these additional updates run: apt list --upgradable
+
+2 additional security updates can be applied with ESM Apps.
+Learn more about enabling ESM Apps service at https://ubuntu.com/esm
+
+
+Avksentyuk Nikita
+Sun Jul 12 12:16:11 PM UTC 2026
+Last login: Sun Jul 12 14:54:43 2026 from 172.16.8.4
+[?2004hroot@eltex-practice2-v2:~# cd /root/eltex/
+[?2004l[?2004hroot@eltex-practice2-v2:~/eltex# git status 
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mmodule1/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004hroot@eltex-practice2-v2:~/eltex# cd
+[?2004l[?2004hroot@eltex-practice2-v2:~# git add .
+[?2004lfatal: not a git repository (or any of the parent directories): .git
+[?2004hroot@eltex-practice2-v2:~# [Kroot@eltex-practice2-v2:~# [Kroot@eltex-practice2-v2:~# cd .[K/root/eltex/
+[?2004l[?2004hroot@eltex-practice2-v2:~/eltex# cd /root/eltex/[6Pgit add .
+[?2004l[?2004hroot@eltex-practice2-v2:~/eltex# git add .cd /root/eltex/[6Pgit add .cd[Kgit status 
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   module1/task1/eltex-v2_part.log[m
+	[32mnew file:   module1/task1/eltex-v2_part3.log[m
+	[32mnew file:   module1/task1/eltex-v2_part3_gt20M.log[m
+	[32mnew file:   module1/task2/practice2_eltex-v2_part1.log[m
+	[32mnew file:   module1/task2/practice2_eltex-v2_part2.log[m
+
+[?2004hroot@eltex-practice2-v2:~/eltex# git -[Kcommit [Kroot@eltex-practice2-v2:~/eltex# git commit [Kroot@eltex-practice2-v2:~/eltex# git commit ""f"[1P"З"а"[1P"[1P"П"р"а"к"[1P"[1P"[1P"[1P"О"т"ч"е"т"ы" "п"о" "п"р"а"к"т"и"к"е" "1" "и" "2"
+[?2004lerror: pathspec 'Отчеты по практике 1 и 2' did not match any file(s) known to git
+[?2004hroot@eltex-practice2-v2:~/eltex# [Kroot@eltex-practice2-v2:~/eltex# [Kroot@eltex-practice2-v2:~/eltex# git commit "Отчеты по практике 1 и 2"[C[1@ [1@-[1@m
+[?2004l[main 6a6f6fd] Отчеты по практике 1 и 2
+ 5 files changed, 4840 insertions(+)
+ create mode 100644 module1/task1/eltex-v2_part.log
+ create mode 100644 module1/task1/eltex-v2_part3.log
+ create mode 100644 module1/task1/eltex-v2_part3_gt20M.log
+ create mode 100644 module1/task2/practice2_eltex-v2_part1.log
+ create mode 100644 module1/task2/practice2_eltex-v2_part2.log
+[?2004hroot@eltex-practice2-v2:~/eltex# git push
+[?2004lEnumerating objects: 11, done.
+Counting objects:   9% (1/11)Counting objects:  18% (2/11)Counting objects:  27% (3/11)Counting objects:  36% (4/11)Counting objects:  45% (5/11)Counting objects:  54% (6/11)Counting objects:  63% (7/11)Counting objects:  72% (8/11)Counting objects:  81% (9/11)Counting objects:  90% (10/11)Counting objects: 100% (11/11)Counting objects: 100% (11/11), done.
+Delta compression using up to 2 threads
+Compressing objects:  10% (1/10)Compressing objects:  20% (2/10)Compressing objects:  30% (3/10)Compressing objects:  40% (4/10)Compressing objects:  50% (5/10)Compressing objects:  60% (6/10)Compressing objects:  70% (7/10)Compressing objects:  80% (8/10)Compressing objects:  90% (9/10)Compressing objects: 100% (10/10)Compressing objects: 100% (10/10), done.
+Writing objects:  10% (1/10)Writing objects:  20% (2/10)Writing objects:  30% (3/10)Writing objects:  40% (4/10)Writing objects:  50% (5/10)Writing objects:  60% (6/10)Writing objects:  70% (7/10)Writing objects:  80% (8/10)Writing objects:  90% (9/10)Writing objects: 100% (10/10)Writing objects: 100% (10/10), 81.88 KiB | 10.23 MiB/s, done.
+Total 10 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: This repository moved. Please use the new location:[K
+remote:   https://github.com/Eltexv22026/eltex.git[K
+To https://github.com/eltexv22026/eltex.git
+   300a541..6a6f6fd  main -> main
+[?2004hroot@eltex-practice2-v2:~/eltex# mr[Kldi[K[K[Kl[Kkdit[Kr ~/eltex_cli[Kot[Kne @@[K[K&& cd ~/eltex_cli[Kone[Kroot@eltex-practice2-v2:~/eltex# mkdir ~/eltex_clone && cd ~/eltex_clone[Kroot@eltex-practice2-v2:~/eltex# mkdir ~/eltex_clone && cd ~/eltex_clone[Kroot@eltex-practice2-v2:~/eltex# mkdir ~/eltex_clone && cd ~/eltex_clone
+[?2004l[?2004hroot@eltex-practice2-v2:~/eltex_clone# [Kroot@eltex-practice2-v2:~/eltex_clone# git clone hpp[K[Kttps://gitg[Khub.com/eltexv22026/elt[Ktex.go[Kit /[K.[Kroot@eltex-practice2-v2:~/eltex_clone# git clone https://github.com/eltexv22026/eltex.git .[Kroot@eltex-practice2-v2:~/eltex_clone# git clone https://github.com/eltexv22026/eltex.git .[Kroot@eltex-practice2-v2:~/eltex_clone# git clone https://github.com/eltexv22026/eltex.git .[Kroot@eltex-practice2-v2:~/eltex_clone# git clone https://github.com/eltexv22026/eltex.git .[Kroot@eltex-practice2-v2:~/eltex_clone# git clone https://github.com/eltexv22026/eltex.git .[Kroot@eltex-practice2-v2:~/eltex_clone# git clone https://github.com/eltexv22026/eltex.git .
+[?2004lCloning into '.'...
+remote: Enumerating objects: 13, done.[K
+remote: Counting objects:   7% (1/13)[Kremote: Counting objects:  15% (2/13)[Kremote: Counting objects:  23% (3/13)[Kremote: Counting objects:  30% (4/13)[Kremote: Counting objects:  38% (5/13)[Kremote: Counting objects:  46% (6/13)[Kremote: Counting objects:  53% (7/13)[Kremote: Counting objects:  61% (8/13)[Kremote: Counting objects:  69% (9/13)[Kremote: Counting objects:  76% (10/13)[Kremote: Counting objects:  84% (11/13)[Kremote: Counting objects:  92% (12/13)[Kremote: Counting objects: 100% (13/13)[Kremote: Counting objects: 100% (13/13), done.[K
+remote: Compressing objects:   8% (1/12)[Kremote: Compressing objects:  16% (2/12)[Kremote: Compressing objects:  25% (3/12)[Kremote: Compressing objects:  33% (4/12)[Kremote: Compressing objects:  41% (5/12)[Kremote: Compressing objects:  50% (6/12)[Kremote: Compressing objects:  58% (7/12)[Kremote: Compressing objects:  66% (8/12)[Kremote: Compressing objects:  75% (9/12)[Kremote: Compressing objects:  83% (10/12)[Kremote: Compressing objects:  91% (11/12)[Kremote: Compressing objects: 100% (12/12)[Kremote: Compressing objects: 100% (12/12), done.[K
+Receiving objects:   7% (1/13)Receiving objects:  15% (2/13)Receiving objects:  23% (3/13)Receiving objects:  30% (4/13)Receiving objects:  38% (5/13)Receiving objects:  46% (6/13)Receiving objects:  53% (7/13)Receiving objects:  61% (8/13)Receiving objects:  69% (9/13)Receiving objects:  76% (10/13)Receiving objects:  84% (11/13)remote: Total 13 (delta 0), reused 13 (delta 0), pack-reused 0 (from 0)[K
+Receiving objects:  92% (12/13)Receiving objects: 100% (13/13)Receiving objects: 100% (13/13), 82.11 KiB | 477.00 KiB/s, done.
+[?2004hroot@eltex-practice2-v2:~/eltex_clone# cs[Kd
+[?2004l[?2004hroot@eltex-practice2-v2:~# ls
+[?2004l[0m[01;31mbackup_7zip.tar.7z[0m    [01;31mbackup_gzip.tar.gz[0m  [01;34meltex_clone[0m  [01;31metc_backup.7z[0m    [01;34metc_backup_gzip[0m     [01;31metc_backup.tar.gz[0m
+[01;31mbackup_bzip2.tar.bz2[0m  [01;34meltex[0m               [01;34metc_backup[0m   [01;34metc_backup_7zip[0m  [01;31metc_backup.tar.bz2[0m
+[?2004hroot@eltex-practice2-v2:~# ls -l
+[?2004ltotal 7280
+-rw-r--r--   1 root root  468459 Jul 12 12:13 [0m[01;31mbackup_7zip.tar.7z[0m
+-rw-r--r--   1 root root  542468 Jul 12 12:11 [01;31mbackup_bzip2.tar.bz2[0m
+-rw-r--r--   1 root root  579549 Jul 12 12:17 [01;31mbackup_gzip.tar.gz[0m
+drwxr-xr-x   4 root root    4096 Jul 12 15:19 [01;34meltex[0m
+drwxr-xr-x   4 root root    4096 Jul 12 16:17 [01;34meltex_clone[0m
+drwxr-xr-x 109 root root    4096 Jul 12 09:14 [01;34metc_backup[0m
+-rw-r--r--   1 root root 4676366 Jul  8 06:50 [01;31metc_backup.7z[0m
+drwxr-xr-x 109 root root    4096 Jul 12 09:14 [01;34metc_backup_7zip[0m
+drwxr-xr-x 109 root root    4096 Jul 12 09:14 [01;34metc_backup_gzip[0m
+-rw-r--r--   1 root root  559664 Jul  8 06:50 [01;31metc_backup.tar.bz2[0m
+-rw-r--r--   1 root root  594470 Jul  8 06:50 [01;31metc_backup.tar.gz[0m
+[?2004hroot@eltex-practice2-v2:~# cd /root/eltex
+[?2004l[?2004hroot@eltex-practice2-v2:~/eltex# echo ""И"[1P"И"з"м"е"н"е"н"и"е" "т"е"с"т"о"в"о"е"[1P"[1P"[1P"[1P"[1P"[1P"[1P"э"[1P"е"с"т" "[1P"о"в"о"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"П"р"о"в"е"р"к"а" "и"з"м"е"н"е"н"и"я"[1P"й"[C >> README.M[Kmn[Kd
+[?2004l[?2004hroot@eltex-practice2-v2:~/eltex# git add /[K.
+[?2004l[?2004hroot@eltex-practice2-v2:~/eltex# git commit -m ""П"о"п"ы"т"к"а" "и"з"м"е"н"е"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"Т"е"с"т"и"р"о"в"а"н"и"е" "в"н"е"с"е"н"и"я" "и"з"м"е"н"е"н"и"я"[C
+[?2004l[main 54d814f] Тестирование внесения изменения
+ 1 file changed, 1 insertion(+)
+[?2004hroot@eltex-practice2-v2:~/eltex# git push j[Korigin main 
+[?2004lEnumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 404 bytes | 404.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: This repository moved. Please use the new location:[K
+remote:   https://github.com/Eltexv22026/eltex.git[K
+To https://github.com/eltexv22026/eltex.git
+   6a6f6fd..54d814f  main -> main
+[?2004hroot@eltex-practice2-v2:~/eltex# cd r[K/root/eltex_clone/
+[?2004l[?2004hroot@eltex-practice2-v2:~/eltex_clone# git fetch
+[?2004lremote: Enumerating objects: 5, done.[K
+remote: Counting objects:  20% (1/5)[Kremote: Counting objects:  40% (2/5)[Kremote: Counting objects:  60% (3/5)[Kremote: Counting objects:  80% (4/5)[Kremote: Counting objects: 100% (5/5)[Kremote: Counting objects: 100% (5/5), done.[K
+remote: Compressing objects:  33% (1/3)[Kremote: Compressing objects:  66% (2/3)[Kremote: Compressing objects: 100% (3/3)[Kremote: Compressing objects: 100% (3/3), done.[K
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0 (from 0)[K
+Unpacking objects:  33% (1/3)Unpacking objects:  66% (2/3)Unpacking objects: 100% (3/3)Unpacking objects: 100% (3/3), 384 bytes | 384.00 KiB/s, done.
+From https://github.com/eltexv22026/eltex
+   6a6f6fd..54d814f  main       -> origin/main
+[?2004hroot@eltex-practice2-v2:~/eltex_clone# git log origin/main 
+[?2004l[?1h=[33mcommit 54d814fe3dea9b1fda845354c0bafc63ee1e2b51[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: eltexv22026 <lad_nik@mail.ru>[m
+Date:   Sun Jul 12 16:23:34 2026 +0000[m
+[m
+    Тестирование внесения изменения[m
+[m
+[33mcommit 6a6f6fda90e982170a844ae7e48548cd42e1677a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m[m
+Author: eltexv22026 <lad_nik@mail.ru>[m
+Date:   Sun Jul 12 16:12:28 2026 +0000[m
+[m
+    Отчеты по практике 1 и 2[m
+[m
+[33mcommit 300a541e85e7b595f8d6a68869b0d792c794fa0d[m[m
+Author: eltexv22026 <lad_nik@mail.ru>[m
+Date:   Sun Jul 12 15:14:35 2026 +0000[m
+[m
+    first commit[m
+[K[?1l>[?2004hroot@eltex-practice2-v2:~/eltex_clone# git diff main origin/main 
+[?2004l[?1h=[1mdiff --git a/README.md b/README.md[m[m
+[1mindex d0dd9b3..7e85c98 100644[m[m
+[1m--- a/README.md[m[m
+[1m+++ b/README.md[m[m
+[36m@@ -1 +1,2 @@[m[m
+ #Практическое занятие 2. Раздел 3[m[m
+[32m+[m[32mПроверка изменений[m[m
+[K[?1l>[?2004hroot@eltex-practice2-v2:~/eltex_clone# git merge origin/main 
+[?2004lUpdating 6a6f6fd..54d814f
+Fast-forward
+ README.md | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+[?2004hroot@eltex-practice2-v2:~/eltex_clone# exit
+[?2004llogout
+Connection to 172.16.9.176 closed.
+[?2004heltex-v2@eltex-2026-summer:~$ screen -ls
+[?2004lThere is a screen on:
+	28988.practice2_part3	(12.07.2026 21:47:43)	(Attached)
+1 Socket in /run/screen/S-eltex-v2.
+[?2004heltex-v2@eltex-2026-summer:~$ у[Kexit
+[?2004lexit
+
+Script done on 2026-07-12 23:28:34+07:00 [COMMAND_EXIT_CODE="0"]
