@@ -1,0 +1,235 @@
+Script started on 2026-07-07 22:14:21+07:00 [TERM="dumb" TTY="/dev/pts/72" COLUMNS="129" LINES="44"]
+eltex-v2@eltex-2026-summer:~$ ls
+ls           lsblk        lscpu        lsinitramfs  lsirq        lslogins     lsmod        lsof         lsusb
+lsattr       lsb_release  lsfd         lsipc        lslocks      lsmem        lsns         lspci        
+eltex-v2@eltex-2026-summer:~$ ls  HIST    $HIST
+$HISTCMD       $HISTCONTROL   $HISTFILE      $HISTFILESIZE  $HISTSIZE      
+eltex-v2@eltex-2026-summer:~$ $HIST     echo # $HISTFILESIZE
+2000
+eltex-v2@eltex-2026-summer:~$ ls -d~// .*
+ls: invalid option -- '~'
+Try 'ls --help' for more information.
+eltex-v2@eltex-2026-summer:~$ ls -d~/.* ~/.*
+/home/eltex-v2/.bash_history  /home/eltex-v2/.config   /home/eltex-v2/.ssh
+/home/eltex-v2/.bash_logout   /home/eltex-v2/.lesshst  /home/eltex-v2/.viminfo
+/home/eltex-v2/.bashrc	      /home/eltex-v2/.profile  /home/eltex-v2/.Xauthority
+eltex-v2@eltex-2026-summer:~$ ls -d ~/.* ~/.*  ~/.* 
+/home/eltex-v2/.bash_history  /home/eltex-v2/.bashrc   /home/eltex-v2/.profile	/home/eltex-v2/.Xauthority
+/home/eltex-v2/.bash_logout   /home/eltex-v2/.lesshst  /home/eltex-v2/.viminfo
+
+/home/eltex-v2/.config:
+procps
+
+/home/eltex-v2/.ssh:
+authorized_keys
+eltex-v2@eltex-2026-summer:~$ ls  ~/.*-d ~/.*д ~/.* ~/.* l ~/.*
+-rw------- 1 eltex-v2 eltex-v2 1913 июл  7 22:11 /home/eltex-v2/.bash_history
+-rw-r--r-- 1 eltex-v2 eltex-v2  220 мар 30  2024 /home/eltex-v2/.bash_logout
+-rw-r--r-- 1 eltex-v2 eltex-v2 3550 июл  6 14:48 /home/eltex-v2/.bashrc
+drwx------ 3 eltex-v2 eltex-v2 4096 июл  6 13:19 /home/eltex-v2/.config
+-rw------- 1 eltex-v2 eltex-v2   20 июл  7 21:30 /home/eltex-v2/.lesshst
+-rw-r--r-- 1 eltex-v2 eltex-v2  807 мар 30  2024 /home/eltex-v2/.profile
+drwx------ 2 eltex-v2 eltex-v2 4096 июл  6 14:43 /home/eltex-v2/.ssh
+-rw------- 1 eltex-v2 eltex-v2  805 июл  6 16:33 /home/eltex-v2/.viminfo
+-rw------- 1 eltex-v2 eltex-v2  252 июл  7 21:24 /home/eltex-v2/.Xauthority
+eltex-v2@eltex-2026-summer:~$ ex[ pot rt HISTOR   TTIMEFIRM   ORN MAT=""%"eltex-v2@eltex-2026-summer:~$ export HISTTIMEFORMAT="%d"-"%"m"-"%"Y" "eltex-v2@eltex-2026-summer:~$ export HISTTIMEFORMAT="%d-%m-%Y "
+eltex-v2@eltex-2026-summer:~$ history 3
+  112  07-07-2026 ls -dl ~/.*
+  113  07-07-2026 export HISTTIMEFORMAT="%d-%m-%Y "
+  114  07-07-2026 history 3
+eltex-v2@eltex-2026-summer:~$ в date
+Вт 07 июл 2026 22:25:19 +07
+eltex-v2@eltex-2026-summer:~$                                                                                                                                 eltex-v2@eltex-2026-summer:~$                                                                                                                                 eltex-v2@eltex-2026-summer:~$ datehistory 3date         datehistory 3date                                                                                                                                         eltex-v2@eltex-2026-summer:~$                                                                                                                                 eltex-v2@eltex-2026-summer:~$                                                                                                                                 eltex-v2@eltex-2026-summer:~$                                                                                                                                 eltex-v2@eltex-2026-summer:~$                                                                                                                                 eltex-v2@eltex-2026-summer:~$                                                                                                                                 eltex-v2@eltex-2026-summer:~$ E ext pot rt T PRONP  M{ PT_COMMAND=                                                                                                                                eltex-v2@eltex-2026-summer:~$ export PROMPT_COMMAND=                                                                                                                                eltex-v2@eltex-2026-summer:~$ export PROMPT_COMMAND=""g"" h"i"s"t"o"r"y" "-"a";" "@"" $"P"R"O"M"P"T"_"R"O"" " C"O"M"M"A"N"D"eltex-v2@eltex-2026-summer:~$ export PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
+eltex-v2@eltex-2026-summer:~$                                                                                                                                 eltex-v2@eltex-2026-summer:~$                                                                                                                                 eltex-v2@eltex-2026-summer:~$ whoami
+eltex-v2
+eltex-v2@eltex-2026-summer:~$ history 3
+  116  07-07-2026 export PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
+  117  07-07-2026 whoami
+  118  07-07-2026 history 3
+eltex-v2@eltex-2026-summer:~$                                                                                                                                 eltex-v2@eltex-2026-summer:~$                                                                                                                                 eltex-v2@eltex-2026-summer:~$ tail -n 5 ~. , // .bash_gi  history
+export PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
+#1783438072
+whoami
+#1783438079
+history 3
+eltex-v2@eltex-2026-summer:~$                                                                                                                                 eltex-v2@eltex-2026-summer:~$                                                                                                                                 eltex-v2@eltex-2026-summer:~$                                                                                                                                 eltex-v2@eltex-2026-summer:~$                                                                                                                                 eltex-v2@eltex-2026-summer:~$ В DATE=$()d)a)t)e) ),)) +)                                                                                                                                eltex-v2@eltex-2026-summer:~$ DATE=$(date +)                                                                                                                                eltex-v2@eltex-2026-summer:~$ DATE=$(date +)) ) 
+eltex-v2@eltex-2026-summer:~$ echo # @ # @ # $DATE
+Вт 07 июл 2026 22:30:41 +07
+eltex-v2@eltex-2026-summer:~$                                                                                                                                 eltex-v2@eltex-2026-summer:~$                                                                                                                                 eltex-v2@eltex-2026-summer:~$ TIME= =$()t)i)m)e)                                                                                                                                eltex-v2@eltex-2026-summer:~$ TIME=$(time)                                                                                                                                eltex-v2@eltex-2026-summer:~$ TIME=$(time)eltex-v2@eltex-2026-summer:~$ TIME=$(time)
+
+real	0m0,000s
+user	0m0,000s
+sys	0m0,000s
+eltex-v2@eltex-2026-summer:~$ TIME=$(time)echo $DATE  DATE=$(date) ),)) +)%)в)) d)-)%)n)) m)=)) +)) -)%)y)) Y)eltex-v2@eltex-2026-summer:~$ DATE=$(date +%d-%m-%Y)
+eltex-v2@eltex-2026-summer:~$ DATE=$(date +%d-%m-%Y)TIME=$(time)          echo $DATE  
+07-07-2026
+eltex-v2@eltex-2026-summer:~$ echo $DATEDATE=$(date +%d-%m-%Y)TIME=$(time)          ) ) ) ) d)a)t)e) )+)%)H):)%)N)) M):)%)S)
+eltex-v2@eltex-2026-summer:~$ TIME=$(date +%H:%M:%S)echo $DATE                TIME
+22:35:01
+eltex-v2@eltex-2026-summer:~$                                                                                                                                 eltex-v2@eltex-2026-summer:~$                                                                                                                                 eltex-v2@eltex-2026-summer:~$ T DATE_TIME=$                                                                                                                                eltex-v2@eltex-2026-summer:~$ DATE_TIME=$                                                                                                                                eltex-v2@eltex-2026-summer:~$ DATE_TIME=$ ""@"" $"D"A"T"E" "$"I"" T"O"" I"M"E"eltex-v2@eltex-2026-summer:~$ DATE_TIME="$DATE $TIME"
+eltex-v2@eltex-2026-summer:~$ DATE_TIME="$DATE $TIME"echo $TIME                 DATE_TIME
+07-07-2026 22:35:01
+eltex-v2@eltex-2026-summer:~$                                                                                                                                 eltex-v2@eltex-2026-summer:~$                                                                                                                                 eltex-v2@eltex-2026-summer:~$ ls /bin /sbin | grep ""["]"0]"/]"/]"]" ]" .]".]".]"]" ]" ]" -]"9]"eltex-v2@eltex-2026-summer:~$ ls /bin /sbin | grep "[0-9]eltex-v2@eltex-2026-summer:~$ ls /bin /sbin | grep "[0-9]"
+addr2line
+b2sum
+base32
+base64
+bunzip2
+bzip2
+bzip2recover
+c89
+c89-gcc
+c99
+c99-gcc
+cpan5.36-x86_64-linux-gnu
+cpp-12
+diff3
+enc2xs
+gcc-12
+gcc-ar-12
+gcc-nm-12
+gcc-ranlib-12
+gcov-12
+gcov-dump-12
+gcov-tool-12
+grub-menulst2cfg
+grub-mkpasswd-pbkdf2
+grub-syslinux2cfg
+h2ph
+h2xs
+i386
+linux32
+linux64
+lto-dump-12
+md5sum
+md5sum.textutils
+pdb3
+pdb3.11
+perl5.36.0
+perl5.36-x86_64-linux-gnu
+ping4
+ping6
+pl2pm
+pod2html
+pod2man
+pod2text
+pod2usage
+py3clean
+py3compile
+py3versions
+pydoc3
+pydoc3.11
+pygettext3
+pygettext3.11
+python3
+python3.11
+sha1sum
+sha224sum
+sha256sum
+sha384sum
+sha512sum
+ssh-argv0
+systemd-id128
+traceroute6
+traceroute6.db
+x86_64
+x86_64-linux-gnu-addr2line
+x86_64-linux-gnu-ar
+x86_64-linux-gnu-as
+x86_64-linux-gnu-c++filt
+x86_64-linux-gnu-cpp
+x86_64-linux-gnu-cpp-12
+x86_64-linux-gnu-dwp
+x86_64-linux-gnu-elfedit
+x86_64-linux-gnu-gcc
+x86_64-linux-gnu-gcc-12
+x86_64-linux-gnu-gcc-ar
+x86_64-linux-gnu-gcc-ar-12
+x86_64-linux-gnu-gcc-nm
+x86_64-linux-gnu-gcc-nm-12
+x86_64-linux-gnu-gcc-ranlib
+x86_64-linux-gnu-gcc-ranlib-12
+x86_64-linux-gnu-gcov
+x86_64-linux-gnu-gcov-12
+x86_64-linux-gnu-gcov-dump
+x86_64-linux-gnu-gcov-dump-12
+x86_64-linux-gnu-gcov-tool
+x86_64-linux-gnu-gcov-tool-12
+x86_64-linux-gnu-gold
+x86_64-linux-gnu-gp-archive
+x86_64-linux-gnu-gp-collect-app
+x86_64-linux-gnu-gp-display-html
+x86_64-linux-gnu-gp-display-src
+x86_64-linux-gnu-gp-display-text
+x86_64-linux-gnu-gprof
+x86_64-linux-gnu-gprofng
+x86_64-linux-gnu-ld
+x86_64-linux-gnu-ld.bfd
+x86_64-linux-gnu-ld.gold
+x86_64-linux-gnu-lto-dump
+x86_64-linux-gnu-lto-dump-12
+x86_64-linux-gnu-nm
+x86_64-linux-gnu-objcopy
+x86_64-linux-gnu-objdump
+x86_64-linux-gnu-ranlib
+x86_64-linux-gnu-readelf
+x86_64-linux-gnu-size
+x86_64-linux-gnu-strings
+x86_64-linux-gnu-strip
+dumpe2fs
+e2freefrag
+e2fsck
+e2image
+e2label
+e2mmpstatus
+e2scrub
+e2scrub_all
+e2undo
+e4crypt
+e4defrag
+fsck.ext2
+fsck.ext3
+fsck.ext4
+killall5
+mke2fs
+mkfs.ext2
+mkfs.ext3
+mkfs.ext4
+resize2fs
+tune2fs
+update-grub2
+eltex-v2@eltex-2026-summer:~$                                                                                                                                 eltex-v2@eltex-2026-summer:~$                                                                                                                                 eltex-v2@eltex-2026-summer:~$ export PS1=""\"u"@"\"h"-"\"@"" $"(")"d)"s)")" a)"t)"e)" )"+)"%)"H)":)"%)"M)"eltex-v2@eltex-2026-summer:~$ export PS1="\u@\h-\$(date +%H:%M)>"eltex-v2@eltex-2026-summer:~$ export PS1="\u@\h-\$(date +%H:%M)>"
+eltex-v2@eltex-2026-summer-22:39>                                                                                                                                eltex-v2@eltex-2026-summer-22:39>                                                                                                                                eltex-v2@eltex-2026-summer-22:39>bush   ash
+eltex-v2@eltex-2026-summer:~$                                                                                                                                 eltex-v2@eltex-2026-summer:~$                                                                                                                                 eltex-v2@eltex-2026-summer:~$ exit
+exit
+eltex-v2@eltex-2026-summer-22:41>expot rt PS1
+eltex-v2@eltex-2026-summer-22:41>bash
+eltex-v2@eltex-2026-summer:~$                                                                                                                                 eltex-v2@eltex-2026-summer:~$                                                                                                                                 eltex-v2@eltex-2026-summer:~$ уч  exit
+exit
+eltex-v2@eltex-2026-summer-22:41>bash --nors c
+eltex-v2@eltex-2026-summer-22:42>exit
+exit
+eltex-v2@eltex-2026-summer-22:43>                                                                                                                                eltex-v2@eltex-2026-summer-22:43>                                                                                                                                eltex-v2@eltex-2026-summer-22:43>                                                                                                                                eltex-v2@eltex-2026-summer-22:43>mrdir -p ` ~; /$()d)a)t)e) )+)%)Y)eltex-v2@eltex-2026-summer-22:43>mrdir -p ~/$(date +%Y)-[ {}0}1}.}.}1}2}eltex-v2@eltex-2026-summer-22:43>mrdir -p ~/$(date +%Y)-{01..12}
+bash: mrdir: command not found
+eltex-v2@eltex-2026-summer-22:44>mrdir -p ~/$(date +%Y)-{01..12}eltex-v2@eltex-2026-summer-22:44>mdir -p ~/$(date +%Y)-{01..12} rdir -p ~/$(date +%Y)-{01..12}dir -p ~/$(date +%Y)-{01..12} kdir -p ~/$(date +%Y)-{01..12}
+eltex-v2@eltex-2026-summer-22:44>                                                                                                                                eltex-v2@eltex-2026-summer-22:44>ls -l
+total 68
+drwxr-xr-x 2 eltex-v2 eltex-v2  4096 июл  7 22:44 2026-01
+drwxr-xr-x 2 eltex-v2 eltex-v2  4096 июл  7 22:44 2026-02
+drwxr-xr-x 2 eltex-v2 eltex-v2  4096 июл  7 22:44 2026-03
+drwxr-xr-x 2 eltex-v2 eltex-v2  4096 июл  7 22:44 2026-04
+drwxr-xr-x 2 eltex-v2 eltex-v2  4096 июл  7 22:44 2026-05
+drwxr-xr-x 2 eltex-v2 eltex-v2  4096 июл  7 22:44 2026-06
+drwxr-xr-x 2 eltex-v2 eltex-v2  4096 июл  7 22:44 2026-07
+drwxr-xr-x 2 eltex-v2 eltex-v2  4096 июл  7 22:44 2026-08
+drwxr-xr-x 2 eltex-v2 eltex-v2  4096 июл  7 22:44 2026-09
+drwxr-xr-x 2 eltex-v2 eltex-v2  4096 июл  7 22:44 2026-10
+drwxr-xr-x 2 eltex-v2 eltex-v2  4096 июл  7 22:44 2026-11
+drwxr-xr-x 2 eltex-v2 eltex-v2  4096 июл  7 22:44 2026-12
+-rw-r--r-- 1 eltex-v2 eltex-v2 12288 июл  7 22:37 eltex-v2_part.log
+-rw-r--r-- 1 eltex-v2 eltex-v2   183 июл  6 16:33 report_part1.txt
+-rw-r--r-- 1 eltex-v2 eltex-v2   847 июл  7 22:11 typescript
+eltex-v2@eltex-2026-summer-22:45>exit
+exit
+
+Script done on 2026-07-07 22:46:55+07:00 [COMMAND_EXIT_CODE="0"]

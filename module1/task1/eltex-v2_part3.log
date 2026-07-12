@@ -1,0 +1,20 @@
+mkdir -p D1/D2/D3
+touch D1/D2/file.txt
+echo "Hello world!" > D1/D2/file.txt
+cd D1/D2/D3
+ls -li
+ln -s ../file.txt s_link
+ln ../file.txt h_link
+ls -li
+mv ../file.txt ../../
+cat h_link
+cat s_link
+Жесткая ссылка так и осталась рабочей, потому что она указывает на физический адрес данных на диске, а вот символическая исчезла, т.к. это по сутия ярлык на путь. Также подсвечивается красным при неработающей ссылке
+cd ~/
+rm -r D1/D2
+find / -type f -size +20M -exec du -sh {} + > eltex-v2_part3_gt20M.log
+cat eltex-v2_part3_gt20M.log
+find ~ -type f -mtime -1
+which find
+file /usr/bin/find
+file /boot/initrd.img*
