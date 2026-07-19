@@ -21,6 +21,7 @@ typedef struct {
 } Contact;
 
 //Функции
+void Main_menu();
 void Print_contact();
 void Add_contact();
 void Edit_contact();
