@@ -22,7 +22,7 @@ typedef struct {
 
 //Функции
 void Main_menu();
-void Print_contact();
+void Print_contacts();
 void Add_contact();
 void Edit_contact();
 void Del_contact();
