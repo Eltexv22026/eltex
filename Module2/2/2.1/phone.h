@@ -11,6 +11,7 @@ typedef struct {
 } LastFirstNames;
 
 typedef struct {
+    LastFirstNames lfn;
     char middlename[STR_LEN];
     char workplace[STR_LEN];
     char position[STR_LEN];
@@ -26,4 +27,5 @@ void Print_contacts();
 void Add_contact();
 void Edit_contact();
 void Del_contact();
+void Free_phonebook();
 

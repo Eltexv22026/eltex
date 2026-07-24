@@ -1,6 +1,8 @@
 //В этом файле находятся реализации функций
 
 #include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 #include <regex.h>
 #include "phone.h"
 
@@ -9,6 +11,12 @@ static Contact *phonebook[SIZE_CONTACTS] = {NULL};
 
 //Общее количество уже существующих контактов
 static int contact_count = 0;
+
+//Очистка буфера от символа перехода на следующую строку
+static void Clear_buffer(){
+    int c;
+    while ((c = getchar()) != '\n' $$ c !=EOF);    
+}
 
 //Функция обработки строки
 void Read_string(char *buffer, int max_len) {
@@ -81,38 +89,91 @@ if(new_contact == NULL){
 //Если мы попали сюда, значит уже память выделена
 memset(new_contact, 0, sizeof(Contact));
 
-//Создаём буферные массивы, для хранения введённых данных пользователя
-char ln[STR_LEN], fn[STR_LEN], mn[STR_LEN], wp[STR_LEN], pos[STR_LEN], phone[STR_LEN], eml[STR_LEN], vk[STR_LEN], messgr[STR_LEN];
-
 printf("=========Добавление контакта========== \n");
+
+//Очищаем буфер ввода
+Clear_buffer();
 
 //Т.к. поле обязательные делаем бесконечный цикл, пока пользователь не введёт хотябы одну букву
 do
 {
-    printf("Введите фамилию (Обязательное поле): ");
-    Read_string(ln, STR_LEN);
+    printf("Введите фамилию (Обязательное поле не менее 2х символов): ");
+    Read_string(new_contact->lfn.lastname, STR_LEN);
 
-} while (strlen(ln) == 0);
+} while (strlen(new_contact->lfn.lastname) < 2);
 
 do
 {
-    printf("Введите имя (Обязательное поле): ");
-    Read_string(fn, STR_LEN);
+    printf("Введите имя (Обязательное поле не менее 1 символа): ");
+    Read_string(new_contact->lfn.firstname, STR_LEN);
     
-} while (strlen(fn) == 0);
+} while (strlen(new_contact->lfn.firstname) == 0);
 
 //Далее просто просим пользователя ввести данные. Но они не обязательные
-printf("Введите отчество: "); Read_string(mn, STR_LEN);
-printf("Введите место работы: "); Read_string(wp, STR_LEN);
-printf("Введите должность: "); Read_string(pos, STR_LEN);
-printf("Введите номер телефона: "); Read_string(phone, STR_LEN);
-printf("Введите e-mail: "); Read_string(eml, STR_LEN);
-printf("Введите ссылку на соц сети: "); Read_string(vk, STR_LEN);
-printf("Введите профиль в мессенджере: "); Read_string(messgr, STR_LEN);
+printf("Введите отчество: "); Read_string(new_contact->middlename, STR_LEN);
+printf("Введите место работы: "); Read_string(new_contact->workplace, STR_LEN);
+printf("Введите должность: "); Read_string(new_contact->position, STR_LEN);
+printf("Введите номер телефона: "); Read_string(new_contact->phone, STR_LEN);
+printf("Введите e-mail: "); Read_string(new_contact->email, STR_LEN);
+printf("Введите ссылку на соц сети: "); Read_string(new_contact->vk, STR_LEN);
+printf("Введите профиль в мессенджере: "); Read_string(new_contact->messenger, STR_LEN);
+
+//Сохраняем указатель на память в куче в массив
+phonebook[contact_count++] = new_contact;
+printf("Контакт с фамилией %s создан.\n", new_contact->lfn.lastname);
+
+}
+
+void Free_phonebook(){
+    for (int i = 0; i < contact_count; i++)
+    {
+        if (phonebook[i] != NULL)
+        {
+            free(phonebook[i]);
+            phonebook[i] = NULL;
+        }        
+    }
+    contact_count = 0;
+}
+
+void Edit_contact(){
+    printf("Тут будет функция редактирования контакта");
+    
+}
 
 
+void Print_contacts(){
+    //Проверка на существование контактов
+    if (contact_count == 0)
+    {
+        printf("Телефонная книга пуста\n");
+        return;
+    }
+    
+    //Если мы попали сюда, значит в книге чтото есть. Выводим
+    printf("==========Список контактов==========\n");
 
+    for (int i = 0; i < contact_count; i++)
+    {
+        //Получаем доступ через указатель, который лежит в массиве
+        Contact *c = phonebook[i];
 
+        //Печатаем порядковый номер, чтото типа айди. Фамилию, имя и отчество.
+        printf("#пп: %d | %s, %s, %s\n", i+1, c->lfn.firstname, c->lfn.lastname, c->middlename);
 
+        //Заглядываем в каждую ячейку структуры и, если там чтото написано, печатаем
+        if (strlen(c->workplace)>0) printf("Место работы: %s", c->workplace);
+        if (strlen(c->position)>0) printf("Должность: %s", c->position);
+        if (strlen(c->phone)>0) printf("Тел.: %s", c->phone);
+        if (strlen(c->email)>0) printf("Почта: %s", c->email);
+        if (strlen(c->vk)>0) printf("Страница: %s", c->vk);
+        if (strlen(c->messenger)>0) printf("Мессенджер: %s", c->messenger);
+    }
+    
+
+}
+
+void Del_contact(){
+    printf("Тут будет функция удаления контакта");
 }
 
